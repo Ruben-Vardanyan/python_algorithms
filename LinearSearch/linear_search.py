@@ -63,3 +63,6 @@ class LinearSearch:
     def get_array(self):
         """Get the current array."""
         return self.__array
+    
+    
+
