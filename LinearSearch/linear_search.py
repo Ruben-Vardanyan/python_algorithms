@@ -2,6 +2,7 @@ from typing import Union
 
 class LinearSearch:
     def __init__(self, array=[], target=None) -> None:
+        
         """Initialize the LinearSearch instance.
 
         Args:

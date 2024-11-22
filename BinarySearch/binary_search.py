@@ -1,5 +1,4 @@
 class BinarySearch:
-    __indexed_array = []
     
     def __init__(self, array=[], target=None) -> None:
         self.__array = array
@@ -20,9 +19,8 @@ class BinarySearch:
     def set_target(self, target):
         self.__target = target
 
-    def binary_search(self):
-        
 
+    def binary_search(self):
         low = 0
         upper = len(self.__indexed_array) - 1
 
